@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a4g_ksd">
+
+    <application
+        android:name=".Controller"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.A4G_KSD">
+        <activity
+            android:name=".UserOffers"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddItemToList"
+            android:exported="true" />
+        <activity
+            android:name=".ViewOrgReq"
+            android:exported="true" />
+        <activity
+            android:name=".SettingsProfile"
+            android:exported="true" />
+        <activity
+            android:name=".MainPage"
+            android:exported="true" />
+        <activity
+            android:name=".MainOrgPage"
+            android:exported="true" />
+        <activity
+            android:name=".addItemAsOrg"
+            android:exported="true" />
+        <activity
+            android:name=".OrgRequests"
+            android:exported="true" />
+        <activity
+            android:name=".MatchPage"
+            android:exported="true" />
+        <activity
+            android:name=".ViewDonateables"
+            android:exported="true" />
+        <activity
+            android:name=".OrgMatchPage"
+            android:exported="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,85 @@
+<resources>
+
+    //main page strs
+    <string name="app_name">A4G_KSD</string>
+    <string name="userViewTextStr">Client View</string>
+    <string name="logoStr">"Donateables"</string>
+    <string name="openerMsgStr">"Hi! What would you like to do today?"</string>
+    <string name="browseReqStr">"Browse Organizational Requests"</string>
+    <string name="addItemStr">"Add Item to Donateables"</string>
+    <string name="matchPage">"Check your Matches!"</string>
+    <string name="addItemPageHeader">Add Items Below</string>
+    <string name="addItemName">Item Name</string>
+    <string name="itemQuantityStr">Item Quantity</string>
+    <string name="checkBoxOneStr">Accept Partial Request Fulfillment</string>
+    <string name="buttonItemAddStr">Submit Item As User</string>
+    <string name="buttonItemAddOrgStr">Submit Item As Org</string>
+    <string name="itemNameCheck">Item Name</string>
+    <string name="itemQuantityCheck">Item Quantity</string>
+    <string name="addressCheck">Pick-up address</string>
+    <string name="checkStr">Please check all information below before submitting</string>
+    <string name="viewOrgReqStr">View Organizational Requests</string>
+    <string name="ViewUserOfferStr">View Pending User Offers</string>
+    <string name="CompOfferStr">View Delivered Offers</string>
+    <string name="toUserOffersStr">View your offers</string>
+
+
+    //Sign up page strs
+    <string name="welcomeStr">"Donateables"</string>
+    <string name="signUpStr">"Create your profile!"</string>
+    <string name="genUserStr">"General User"</string>
+    <string name="orgStr">"Organizational User"</string>
+    <string name="accountTypeStr">"Account Type?"</string>
+    <string name="usernameLabel">"Enter a username: "</string>
+    <string name="usernameStr">"Username"</string>
+    <string name="emailLabel">"Enter your email: "</string>
+    <string name="emailStr">"Email "</string>
+    <string name="zipcodeLabel">"Enter your zipcode: "</string>
+    <string name="UserRadio">Regular User</string>
+    <string name="textOff1">Regular User</string>
+    <string name="textOn1">Organization</string>
+    <string name="viewUserReqStr">View My Donateables</string>
+    <string name="enterNameStr">Please Enter a Username: </string>
+    <string name="enterNameHintStr">Enter a username</string>
+    <string name="enterAddressStr">Please Enter Your Zipcode: </string>
+    <string name="enterAddressHintStr">Zipcode</string>
+    <string name="enterEmailStr">Please Enter Your Email: </string>
+    <string name="enterEmailHintStr">Enter your email</string>
+    <string name= "getStartedStr">Get Started!</string>
+
+    //Settings Strs
+    <string name="logoStrSettings">"Settings and Profile"</string>
+    <string name="settingsCheckBoxNotifications">Notifications</string>
+    <string name="EmailSetting">Email: </string>
+    <string name="AddySettings">Address: </string>
+    <string name="InstrSettings">Pick-Up Instructions:</string>
+    <string name="orgAddItemButton">"Add Item Request "</string>
+    <string name="addItemAsOrg">Add Item Request</string>
+    <string name="addReqOrg">Add Item Request</string>
+
+    //Item Strs
+    <string name="item_name">"Item Name: "</string>
+    <string name="item_quantity">"Item Quantity: "</string>
+    <string name="quantity">quantity</string>
+    <string name="status">"Status: "</string>
+    <string name="pending">pending</string>
+    <string name="name">name</string>
+
+    //Org Request Strings
+    <string name="orgRequestTitles">My Requests</string>
+    <string name="toOrgRequest">View My Requests</string>
+    <string name="matchStr">Matches</string>
+    <string name="viewDonateables">Browse Local Donateables</string>
+
+
+    //Match strs
+    <string name="orgmatch">"Organization: "</string>
+    <string name="amount1">amount</string>
+    <string name="org_remain">"Organization Amount Left: "</string>
+    <string name="orgname">name</string>
+    <string name="donatequestion">Accept</string>
+    <string name="acceptquestion">Accept</string>
+
+
+
+</resources>

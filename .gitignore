@@ -1,0 +1,29 @@
+# Android
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# iOS
+*.xcuserstate
+*.xcworkspace
+xcuserdata/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+
+# General
+.DS_Store
+*.log

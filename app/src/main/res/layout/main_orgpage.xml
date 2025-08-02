@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_drawabletwo"
+    tools:context=".MainOrgPage">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/appNameAndLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="@string/logoStr"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/welcomeMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="monospace"
+        android:text="@string/openerMsgStr"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/browseReqButton"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:fontFamily="monospace"
+        android:backgroundTint="#00BEC6"
+        android:onClick="toViewDonateables"
+        android:text="@string/viewDonateables"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/browseReqButton2"
+        app:layout_constraintTop_toBottomOf="@+id/addItemButtonOrg" />
+
+    <Button
+        android:id="@+id/browseReqButton2"
+        android:layout_width="match_parent"
+        android:backgroundTint="#00C4BC"
+        android:layout_height="75dp"
+        android:fontFamily="monospace"
+        android:onClick="OrgReq"
+        android:text="@string/toOrgRequest"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/profileButtonOrg"
+        app:layout_constraintTop_toBottomOf="@+id/browseReqButton" />
+
+    <Button
+        android:id="@+id/profileButtonOrg"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginBottom="175dp"
+        android:backgroundTint="#00C8B7"
+        android:fontFamily="monospace"
+        android:onClick="moveToMatchPage"
+        android:text="@string/matchPage"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/browseReqButton2" />
+
+    <Button
+        android:id="@+id/addItemButtonOrg"
+
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#00B5D3"
+        android:fontFamily="monospace"
+        android:minHeight="48dp"
+        android:onClick="moveToAddItemToList"
+        android:text="@string/addItemAsOrg"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/browseReqButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeMsg"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="126dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/appNameAndLogo"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/donateconnect__5_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
