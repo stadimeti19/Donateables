@@ -27,3 +27,6 @@ GoogleService-Info.plist
 # General
 .DS_Store
 *.log
+
+# IDE
+.vscode/
