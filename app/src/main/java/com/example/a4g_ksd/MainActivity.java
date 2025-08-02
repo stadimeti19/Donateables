@@ -167,15 +167,16 @@ public class MainActivity extends AppCompatActivity {
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
         // Check which radio button was clicked
-        switch(view.getId()) {
-            case R.id.genUserRadio:
-                if (checked)
-                    boolin = true;
-                break;
-            case R.id.orgRadio:
-                if (checked)
-                    boolin = false;
-                break;
+        int viewId = view.getId();
+
+        if (viewId == R.id.genUserRadio) {
+            if (checked) {
+                boolin = true;
+            }
+        } else if (viewId == R.id.orgRadio) {
+            if (checked) {
+                boolin = false;
+            }
         }
     }
 }
