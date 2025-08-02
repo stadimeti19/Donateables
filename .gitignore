@@ -10,6 +10,14 @@
 .cxx
 local.properties
 
+# Build directories
+app/build/
+app/release/
+app/debug/
+build/
+.gradle/
+gradle-app.setting
+
 # iOS
 *.xcuserstate
 *.xcworkspace
@@ -30,3 +38,8 @@ GoogleService-Info.plist
 
 # IDE
 .vscode/
+
+# Generated files
+*.apk
+*.aab
+*.aar
