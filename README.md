@@ -1,11 +1,11 @@
-# Donateables - Android App
+# Donateables
 
 A cross-platform donation app that connects donors with charitable organizations through an intelligent matching system.
 
 ## Platforms Available
 
-- **Android**: Java-based app with Firebase integration (this repository)
-- **iOS**: Swift-based app with Firebase integration ([separate repository](https://github.com/your-username/donateables-ios))
+- **Android**: Java-based app with Firebase integration
+- **iOS**: Swift-based app with Firebase integration
 
 ## Features
 
@@ -23,6 +23,12 @@ A cross-platform donation app that connects donors with charitable organizations
 - **UI**: XML layouts with Material Design
 - **Build System**: Gradle
 
+### iOS
+- **Language**: Swift
+- **Database**: Firebase Realtime Database
+- **UI**: Programmatic UI with UIKit
+- **Build System**: Xcode
+
 ## Project Structure
 
 ```
@@ -31,6 +37,11 @@ Donateables/
 │   ├── src/main/java/     # Java source code
 │   ├── src/main/res/      # Android resources
 │   └── build.gradle       # Android dependencies
+├── iOS/Donateables/       # iOS app
+│   ├── Donateables.xcodeproj/  # Xcode project
+│   ├── Donateables/       # Swift source code
+│   ├── Models/            # Core data models
+│   └── Package.swift      # Swift dependencies
 ├── build.gradle           # Project configuration
 └── README.md              # This file
 ```
@@ -39,21 +50,30 @@ Donateables/
 
 ### Prerequisites
 - Android Studio (latest version recommended)
+- Xcode 15.0+ (for iOS development)
 - Firebase project
 
 ### Quick Start
+
+#### Android
 1. Clone this repository
 2. Open in Android Studio
 3. Add `google-services.json` to the `app/` directory
 4. Build and run
 
+#### iOS
+1. Clone this repository
+2. Open `iOS/Donateables/Donateables.xcodeproj` in Xcode
+3. Add `GoogleService-Info.plist` to the project
+4. Build and run
+
 ## Firebase Integration
 
-The Android app connects to Firebase Realtime Database:
+Both apps connect to the same Firebase Realtime Database:
 - Real-time data synchronization
 - User and organization management
 - Item tracking and status updates
-- Cross-platform data sharing with iOS app
+- Cross-platform data sharing
 
 ## Core Models
 
@@ -64,6 +84,6 @@ The Android app connects to Firebase Realtime Database:
 
 ## Cross-Platform Development
 
-This Android app is part of a larger cross-platform solution. The iOS version is maintained in a separate repository to ensure clean separation of concerns while sharing the same Firebase backend.
+This repository contains both Android and iOS apps that share the same Firebase backend, enabling seamless cross-platform functionality while maintaining clean separation between the two codebases.
 
 **Donateables Team** - Making donations easier, one match at a time. 
